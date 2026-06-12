@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 import google.generativeai as genai
 
-# ---------------- API ----------------
+# ---------------- API ---------------
 
 genai.configure(
     api_key=st.secrets["GEMINI_API_KEY"]
